@@ -185,7 +185,6 @@ public class GameManager : MonoBehaviour
     private void EndGame()
     {
         m_IsGameRunning = false;
-        ManageScripts();
 
         m_InGameUI.SetActive(false);
 
