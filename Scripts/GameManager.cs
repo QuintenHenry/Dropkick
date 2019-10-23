@@ -135,20 +135,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void ManageScripts()
-    {
-        //List<MonoBehaviour> scriptList = new List<MonoBehaviour>();
-
-        //SetScriptInList(m_ToDissableOnEnd, scriptList);
-
-        //for (int i = 0; i < m_TeamManager.GetAmmountOfTeams(); i++)
-        //{
-        //    SetScriptInList(m_TeamManager.GetPlayersOfTeam(i), scriptList);
-        //}
-
-        //DissableScripts(scriptList);
-    }
-
     public void StartGame()
     {
         m_IsGameRunning = true;
