@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class CollisionManager : MonoBehaviour {
 
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
     private void OnTriggerEnter(Collider other)
     {
         GameObject otherRoot = other.transform.root.gameObject;
