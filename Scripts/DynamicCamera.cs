@@ -128,14 +128,14 @@ public class DynamicCamera : MonoBehaviour {
         //transform.Translate(transform.forward * ZoomValue  * m_ZoomSpeed * Time.deltaTime);
     }
 
-    private void OnDrawGizmos()
+    /*private void OnDrawGizmos()
     {
         //Gizmos.DrawSphere(m_MiddleofField, 1.0F);
         //Gizmos.color = Color.green;
         //Gizmos.DrawSphere(min, 0.5f);
         //Gizmos.color = Color.red;
         //Gizmos.DrawSphere(max, 0.5f);
-    }
+    }*/
     public void Shake(float intensity,float time) {
         m_CurrentShake = time;
         m_ShakeIntensity = intensity;
